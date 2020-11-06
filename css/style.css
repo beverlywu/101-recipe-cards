@@ -1,0 +1,319 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	margin: 0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+	color: #F16059;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 1em;
+}
+
+/*==============================
+		MOBILE STYLES
+===============================*/
+
+h2 {
+	text-align: center;
+}
+
+header {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+	width: 90%;
+}
+
+header img {
+	padding-right: 20px;
+}
+
+main {
+	background: #DAF7F6;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background: #fff;
+	margin: 5vw 10vw;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: 90%;
+}
+
+.image {
+	width: 90%;
+}
+
+.image img {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.recipe {
+	width: 90%;
+}
+
+.time {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	margin-top: 10px;
+	text-transform: uppercase;
+	border: 1px solid #000;
+}
+
+.icon {
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+
+.icon i {
+	color: #66cccc;
+	font-size: 2em;
+}
+
+.time p {
+	margin: 0;
+}
+
+.prep {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 32%;
+	flex-grow: 1;
+	padding: 10px;
+}
+
+.cook {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	border-left: 1px solid #000;
+	flex-basis: 32%;
+	flex-grow: 1;
+	padding: 10px;
+	
+	
+}
+
+.total {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	border-left: 1px solid #000;
+	flex-basis: 34%;
+	flex-grow: 1;
+	padding: 10px;
+	
+	
+	
+
+	
+	
+	
+}
+
+.description {
+	
+}
+
+.columns {
+	display: flex;
+	flex-flow: column;
+}
+
+.ingredients {
+}
+
+.ingredients h3 {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 5px;
+}
+
+.directions {
+}
+
+.directions h3 {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 5px;
+}
+
+/*==========================================================
+						TABLET STYLES
+==========================================================*/
+
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 0.88em;
+	}
+	h1,
+	h2,
+	h3 {
+		font-family: 'Montserrat', sans-serif;
+		margin: 0;
+		text-transform: uppercase;
+		color: #F16059;
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+	
+	p {
+	}
+
+	header {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		background: #fff;
+		padding: 15px;
+	}
+
+	header img {
+		padding-right: 20px;
+	}
+
+	main {
+		margin: 0;
+	}
+
+
+
+	.card {
+		background: #fff;
+		margin: 50px;
+		padding: 30px;
+		display: flex;
+		flex-flow: row;
+		align-items: flex-start;
+	
+	}
+
+	.image {
+		width: 50%;
+	}
+
+	.image img {
+		width: 100%;
+		margin: 0;
+	}
+
+	.recipe {
+		width: 50%;
+		padding-left: 30px;
+	}
+
+	.time {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10px;
+	
+	}
+
+	.time p{
+		margin: 0;
+	}
+	
+	.icon {
+		padding-right: 3px;
+		
+	}
+
+	.prep {
+		flex-flow: row nowrap;
+		align-items: center;
+		padding: 5px;
+		
+	}
+
+	.cook {
+		flex-flow: row nowrap;
+		padding: 5px;
+		
+	}
+
+	.total {
+		flex-flow: row nowrap;
+		padding: 5px;
+		
+	}
+	
+	.description {
+	
+	}
+
+	.columns {
+		display: flex;
+		flex-flow: row;
+	}
+
+	.ingredients {
+		width: 50%;
+		margin-right: 20px;
+	}
+
+	.ingredients h3 {
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+		padding: 5px;
+	}
+
+	.directions {
+		width: 50%;
+	}
+
+	.directions h3 {
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+		padding: 5px;
+	}
+	
+}
